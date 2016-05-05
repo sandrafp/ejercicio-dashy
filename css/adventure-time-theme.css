@@ -48,6 +48,7 @@ a {
 .logout {
 	color: white;
 	font-size: 20px;
+	background-color:  #424a5d;
 }
 /*fin header*/
 /*aside*/
@@ -86,6 +87,7 @@ a {
 	color: gray;
 	margin-left: 210px;
 	background-color: whitesmoke;
+	padding-left: 15px;
 }
 #main-content .fa {
 	font-size: 30px;
@@ -96,11 +98,13 @@ a {
 .box0:hover {
 	background-color: white;
 	padding: 0;
-	box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
+	-webkit-box-shadow: 2px 6px 23px 3px rgba(191,191,191,1);
+	-moz-box-shadow: 2px 6px 23px 3px rgba(191,191,191,1);
+	box-shadow: 2px 6px 23px 3px rgba(191,191,191,1);
 
 }
 .box1 {
-	padding: 0% 1%;
+	padding: 1%;
     border-bottom: 1px solid;
 }
 .box0:hover .box1{
@@ -121,15 +125,21 @@ a {
 }
 .ds h3{
 	background-color: #9c4c9d;
-    display: inline-block;
-    padding: 1% 2%;
+    padding: 3% 1%;
     color: whitesmoke;
+    font-size: 13px;
+
 }
 .badge, .bg-theme{
 	display: inline-block;
 }
 .bg-theme {
 	background-color: #68dff0;
+}
+.details {
+    position: relative;
+    top: -37px;
+    left: 46px;
 }
 /*fin ds*/
 /*parte videos*/
