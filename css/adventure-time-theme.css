@@ -8,15 +8,17 @@
 }
 
 .sidebar-closed #sidebar {
-    margin-left: -210px;
+    margin-left: -180px;
 }
 
 /*Escribe aqui tu codigo */
 a {
 	color: #428bca;
+	text-decoration: none;
 }
-#container {
-	width:100%;
+.hidden-xs:hover {
+	font-weight: 80;
+	color: pink;
 }
 .black-bg {
 	background-color: #424a5d;
@@ -48,6 +50,8 @@ a {
 .logout {
 	color: white;
 	font-size: 20px;
+	background-color: #9c4c9d;
+	border-radius: -30px;
 }
 /*fin header*/
 /*aside*/
@@ -80,14 +84,17 @@ a {
 /*aside fin*/
 /*main content*/
 #main-content {
-	top: 68px;
-	position: absolute;
-	padding-top: 2%;
-	color: gray;
+	margin-: 68px;
+	padding: 1% 2%;
+	color: #989898;
 	margin-left: 210px;
+	margin-top: 68px;
 	background-color: whitesmoke;
 }
-#main-content .fa {
+#mg-0 {
+	margin-top: 0%;
+}
+.box1 .fa {
 	font-size: 30px;
 }
 .box0 {
@@ -96,12 +103,14 @@ a {
 .box0:hover {
 	background-color: white;
 	padding: 0;
-	box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
+	box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
+	-moz-box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
+	-webkit-box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
 
 }
 .box1 {
 	padding: 0% 1%;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #a3a3a3;
 }
 .box0:hover .box1{
 	border: none;
@@ -112,28 +121,54 @@ a {
 .box0:hover p {
 	display: block;
 	visibility: visible;
-	color: red;
+	color: #ffa98c;
 	font-size: 12px;
 }
 /*col-m3 ds*/
-.ds {
-	background-color: white;
-}
 .ds h3{
 	background-color: #9c4c9d;
-    display: inline-block;
-    padding: 1% 2%;
+    padding: 3% 2%;
     color: whitesmoke;
-}
-.badge, .bg-theme{
-	display: inline-block;
+    font-size: 20px;
 }
 .bg-theme {
 	background-color: #68dff0;
+	margin-top: -71px;
+}
+.desc {
+	border-bottom: 1px solid gray;
+	padding: 1% 0%;
+}
+.desc:hover {
+	background-color: whitesmoke;
+	border: none;
+	box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
+
+}
+.details, .thumb {
+	display: inline-block;
+}
+.details {
+	width: 209px;
+}
+.img-circle {
+	margin-top: -22px;
 }
 /*fin ds*/
 /*parte videos*/
-.showback {
+.showback, .ds {
 	background-color: white;
+	box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
+	-moz-box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
+	-webkit-box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
+}
+.showback {
+	padding-bottom: 2%;
+	padding: 0% 1%;
+}
+.box-shadow {
+	box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
+	-moz-box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
+	-webkit-box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
 }
 
