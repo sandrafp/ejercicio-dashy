@@ -8,17 +8,31 @@
 }
 
 .sidebar-closed #sidebar {
-    margin-left: -180px;
+    margin-left: -210px;
 }
 
 /*Escribe aqui tu codigo */
-a {
+body {
+	background-color: whitesmoke;
+}
+.showback, .ds, .content-panel, .form-panel {
+	background-color: white;
+	box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
+	-moz-box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
+	-webkit-box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
+}
+.showback, .content-panel, .form-panel {
+	padding: 1%;
+    margin-bottom: 3%;
+}
+/*header*/
+*a {
 	color: #428bca;
 	text-decoration: none;
 }
 .hidden-xs:hover {
-	font-weight: 80;
-	color: pink;
+	font-weight: 800;
+	color: #9c4c9d;
 }
 .black-bg {
 	background-color: #424a5d;
@@ -32,6 +46,8 @@ a {
 	z-index: 5;
 	padding: 10px;
 }
+/*fin header*/
+/*side-bar*/
 .sidebar-toggle-box {
 	display: inline-block;
 	font-size: 20px;
@@ -53,11 +69,9 @@ a {
 	background-color: #9c4c9d;
 	border-radius: -30px;
 }
-/*hover header*/
-/*fin header*/
-/*aside*/
 #sidebar {
 	background-color: #424a5d;
+	color: whitesmoke;
 	display: inline-block;
 	position: fixed;
 	height: 100%;
@@ -67,7 +81,6 @@ a {
     width: 210px;
 }
 .sidebar-menu {
-	color: whitesmoke;
 	padding: 0;
 }
 .sub-menu {
@@ -82,6 +95,9 @@ a {
 .sub-menu:hover {
 	background-color: #9c4c9d;
 }
+.sub-menu:active {
+	background-color: #e26eab;
+}
 /*aside fin*/
 /*main content*/
 #main-content {
@@ -90,7 +106,6 @@ a {
 	color: #989898;
 	margin-left: 210px;
 	margin-top: 68px;
-	background-color: whitesmoke;
 }
 #mg-0 {
 	margin-top: 0%;
@@ -136,11 +151,11 @@ a {
 	background-color: #68dff0;
 	margin-top: -71px;
 }
-.desc {
+.ds .desc {
 	border-bottom: 1px solid gray;
 	padding: 1% 0%;
 }
-.desc:hover {
+.ds .desc:hover {
 	background-color: whitesmoke;
 	border: none;
 	box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
@@ -156,20 +171,12 @@ a {
 	margin-top: -22px;
 }
 /*fin ds*/
-/*parte videos*/
-.showback, .ds {
+/*galeria*/
+.photo-wrapper {
+	margin-bottom: 10%;
+}
+.form-login {
 	background-color: white;
-	box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
-	-moz-box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
-	-webkit-box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
-}
-.showback {
-	padding-bottom: 2%;
-	padding: 0% 1%;
-}
-.box-shadow {
-	box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
-	-moz-box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
-	-webkit-box-shadow: 1px 3px 5px 1px rgba(159, 159, 159, 0.66);
+	margin-top: 10%;
 }
 
